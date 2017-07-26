@@ -1,0 +1,11 @@
+.todo-item {
+    list-style-type: none;
+}
+
+.itsTrue {
+    background-color: green;
+}
+
+.notDone {
+    background-color: yellow;
+}

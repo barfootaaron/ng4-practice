@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+
+router-outlet {
+  margin: 0 15px 0 15px;
+}
+
+
+nav {
+      background-color: #1e88e5;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+body {
+      background-color: #bbdefb;
+}
+
+h1 {
+  font-size: 2em;
+  color: #999; 
+  margin-bottom: 0;
+  text-align: center;
+}
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  color: #0288d1;
+  padding-top: 0;
+}
+
+label {
+  display: inline;
+  margin: .5em 0;
+  color: #607D8B;
+  font-weight: bold;
+}
+input {
+  height: 2em;
+  font-size: 1em;
+  padding-left: .4em;
+  background-color: #eeeeee !important;
+}
+button {
+  margin-top: 20px;
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc; 
+  cursor: auto;
+}

@@ -1,0 +1,9 @@
+.comment-card {
+    border: 1px grey solid;
+    height: 300px;
+    width: 300px;
+}
+
+h2 {
+    margin-left: 20px;
+}

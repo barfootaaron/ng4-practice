@@ -1,0 +1,10 @@
+<h1>About</h1>
+
+<h2>Comments</h2>
+<div class="row">
+  <div class="col s4 comment-card" *ngFor="let comment of comments">
+      <h4>{{ comment.name }}</h4>
+      <p>{{ comment.email }}</p>
+      <p>{{ comment.body }}</p>
+  </div>
+</div>

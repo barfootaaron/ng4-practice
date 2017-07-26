@@ -1,0 +1,17 @@
+<h1>Todo List</h1>
+
+<div class="row">
+  <div class="col s6 todo-item" *ngFor="let todo of todos">
+    <div *ngIf="todo.completed; else notDone" class="itsTrue">
+      <li>{{ todo.title }}</li>
+      <i> Completed </i>
+    </div>
+    <ng-template #notDone>
+      <div  class="notDone">
+        <li>{{ todo.title }}</li>
+        <i> In Progress </i>
+      </div>
+    </ng-template>
+    <hr>
+  </div>
+</div>
